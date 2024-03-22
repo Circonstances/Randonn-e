@@ -1,0 +1,57 @@
+.barre-de-menu > li {
+    display: inline;
+    list-style: none;
+  }
+  
+  .barre-de-menu {
+    background-color: var(--couleur-0);
+  }
+  
+  .barre-de-menu > li > a {
+    color: var(--couleur-6);
+  }
+  
+  .barre-de-menu {
+    /* Déclarations précédentes ici. */
+    padding: 10px 0;
+  }
+            
+  .barre-de-menu > li > a {
+    /* Déclarations précédentes ici. */
+    margin: 0 10px;
+    text-decoration: none;
+  }
+  
+  body {
+    /* Déclarations précédentes ici. */
+    margin: 0;
+  };
+            
+  .barre-de-menu {
+    /* Déclarations précédentes ici. */
+    margin: 0;
+  }
+  
+  .barre-de-menu {
+    /* Déclarations précédentes ici. */
+    text-align: center;
+  }
+  
+  .barre-de-menu > li > a:hover {
+    background-color: var(--couleur-6);
+    color: var(--couleur-0);
+  }
+  
+  .barre-de-menu > li > a {
+    /* Déclarations précédentes ici. */
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  .barre-de-menu > li > a.actuel {
+    border-bottom-style: solid;
+    border-bottom-color: var(--couleur-5);
+    border-bottom-width: 5px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
