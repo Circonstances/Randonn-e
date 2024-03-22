@@ -14,4 +14,3 @@ Site web qui répertorie des parcours de randonnées possible pour une région s
 ## Informations
 
 ⚠️ Réalisé dans le cadre de notre formation
-test
