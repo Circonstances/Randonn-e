@@ -1,19 +1,50 @@
 <!DOCTYPE html>
 <html lang="fr">
-
 <head>
     <meta charset="utf-8" />
+    <title>Accueil - Site de Randonnée</title>
     <link rel="stylesheet" href="css/index.css" />
 </head>
 
 <body>
-    <!-- le menu de navigation -->
-    <ul class="barre-de-menu">
-        <li><a class = "actuel" href="index.html">Accueil</a></li>
-        <li><a href="randonnee.html">Randonner</a></li>
-        <li><a href="contribuer.html">Contribuer</a></li>
-      </ul>
-</body>
-<!-- test pour push -->
+    <!-- Barre de navigation -->
+    <nav>
+        <ul class="barre-de-menu">
+            <li><a class="actuel" href="index.html">Accueil</a></li>
+            <li><a href="randonnee.html">Randonner</a></li>
+            <li><a href="contribuer.html">Contribuer</a></li>
+        </ul>
+    </nav>
 
+    <!-- En-tête de la page -->
+    <header>
+        <h1>Bienvenue sur le Site de Randonnée</h1>
+        <p>Découvrez les plus belles randonnées et partagez vos expériences.</p>
+    </header>
+
+    <!-- Section des randonnées populaires -->
+    <section>
+        <h2>Randonnées populaires</h2>
+        <div class="grid-randonnees">
+            <article>
+                <img src="path/to/image1.jpg" alt="Description de l'image 1">
+                <h3>Nom de la randonnée 1</h3>
+                <p>Description courte...</p>
+                <a href="#">Détails</a>
+            </article>
+            <article>
+                <img src="path/to/image2.jpg" alt="Description de l'image 2">
+                <h3>Nom de la randonnée 2</h3>
+                <p>Description courte...</p>
+                <a href="#">Détails</a>
+            </article>
+            <!-- Ajoutez plus d'articles ici -->
+        </div>
+    </section>
+
+    <!-- Pied de page -->
+    <footer>
+        <p>© 2024 Site de Randonnée. Tous droits réservés.</p>
+    </footer>
+</body>
 </html>
