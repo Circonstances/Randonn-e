@@ -8,24 +8,25 @@
 </head>
 
 <body>
-    <div>
+    <nav>
     <ul class="barre-de-menu">
-        <li><a class = "actuel" href="index.html">Accueil</a></li>
+        <li><a href="index.html">Accueil</a></li>
         <li><a href="randonnee.html">Randonner</a></li>
-        <li><a href="contribuer.html">Contribuer</a></li>
+        <li><a class = "actuel" href="contribuer.html">Contribuer</a></li>
       </ul>
-    
-        <h1>Se connecter</h1>
-        <p class="utiliser-id">Utilisez vos identifiants pour vous connecter :</p>
-
-        <div class="inputs">
-            <input type="identifiant" placeholder="Identifiant">
-            <input type="motdepasse" placeholder="Mot de passe">
+    </nav>
+    <form id= "block-id" action="/chemin_du_serveur_pour_traiter_la_connexion" method="POST">
+        <div id= "elements"></div>
+        <div>
+            <label for="username">Nom d'utilisateur:</label>
+            <input type="text" id="username" name="username" required>
         </div>
-
-        <p class="inscription">Je n'ai pas de compte. Je m'en crée un</p>
-        <div align="center">
-            <button type="soumettre">Se connecter</button>
+        <div>
+            <label for="password">Mot de passe:</label>
+            <input type="password" id="password" name="password" required>
         </div>
-    </div>
+        <div>
+            <button type="submit">Se connecter</button>
+        </div>
+    </form>
 </body>

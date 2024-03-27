@@ -1,6 +1,8 @@
 @import url("commun.css");
-body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+nav, 
+form {
+  display: block; /* Assure que la barre de navigation et le formulaire s'affichent comme des blocs, chacun sur sa propre ligne */
+  width: 100%; /* Prend toute la largeur disponible */
 }
+
+#block-id { text-align: center}
